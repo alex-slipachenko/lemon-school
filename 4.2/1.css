@@ -1,0 +1,49 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	color: white;
+	font-size: 32px;
+}
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	background-color: blue;
+}
+header {
+height: 100px;
+background-color: orange;
+}
+footer {
+	height: 100px;
+	background-color: gold;
+clear: both;
+width: 800px;
+margin: auto;
+}
+.aside1 {
+float: right;
+background-color: brown;
+width: 200px;
+}
+
+.aside2 {
+	float: left;
+	background-color: brown;
+	width: 200px;
+}
+main {
+	float: left;
+	background-color: brown;
+}
+
+.content  {
+	background-color: green;
+	margin-left: 200px;
+	margin-right: 200px;
+	width: 400px;
+	min-height: 200px;
+	height: 100%;
+}
