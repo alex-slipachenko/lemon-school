@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	li::before { 
+    content: "★";
+}
+
+li:nth-child(5) {
+    background: #666; /* Цвет фона */
+    }
+  
+</style>
+
+<body>
+	<ul type="1">
+  <li>List item</li>
+  <li>List item</li>
+  		<ul>
+  		<li>List item</li>
+  		<li>List item</li>
+  		<li>List item</li>
+  			<ul type="5">
+  			<li>testList item</li>
+			</ul>
+ 		<li>List item</li>
+		</ul>
+  <li>List item</li>
+</ul>
+
+</body>
+</html>
